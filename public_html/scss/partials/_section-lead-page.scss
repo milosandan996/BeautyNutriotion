@@ -1,0 +1,210 @@
+
+
+
+
+
+
+///////////////////////////////home page//////////////////////////////////////
+
+.home-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/naslovna9.jpg);
+}
+
+
+
+
+.home-lead-page{
+    @extend #home-page;
+}
+
+@media(min-width:567px){
+    .home-lead-page{
+        h1{
+            font-size: $h1-font-size;
+            letter-spacing: 2rem;
+        }
+    }
+
+    #home-page{
+        h1{
+            padding-top: 35rem !important;
+        }
+    }
+}
+
+@media(min-width:768px){
+    #home-page{
+        h1{
+            padding-top: 16rem;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    #home-page{
+        h1{
+            padding-top: 21rem !important;
+        }
+    }
+}
+
+///////////////////////////////services page////////////////////////////////////
+
+.services-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/services-home.png);
+}
+
+.services-lead-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+///////////////////////////////treatments1 page//////////////////////////////////
+
+
+.treatments1-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/services1.2.jpg);
+}
+
+.treatments1-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+@media(min-width:567px){
+    .treatments1-page{
+        h1{
+            font-size: $h1-font-size;
+            letter-spacing: 2rem;
+            padding-top: 19rem;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .treatments1-page{
+        h1{
+            padding-top: 22rem;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .treatments1-page{
+        h1{
+            padding-top: 26rem !important;
+        }
+    }
+}
+
+
+
+///////////////////////////////treatments2 page//////////////////////////////////
+
+
+.treatments2-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/naslovna9.jpg);
+}
+
+.treatments2-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+@media(min-width:567px){
+    .treatments2-page{
+        h1{
+            font-size: $h1-font-size;
+            letter-spacing: 2rem;
+            padding-top: 19rem;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .treatments2-page{
+        h1{
+            padding-top: 22rem;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .treatments2-page{
+        h1{
+            padding-top: 26rem !important;
+        }
+    }
+}
+
+
+/////////////////////////////////blog page//////////////////////////////////////
+
+
+.blog-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/naslovna2.jpg);
+}
+
+.blog-lead-page{
+    @extend #home-page;
+    h1{
+        padding-top: 30rem !important;
+    }
+}
+
+@media(min-width:567px){
+    .blog-lead-page{
+        h1{
+            font-size: $h1-font-size;
+            letter-spacing: 2rem;
+            padding-top: 19rem;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .blog-lead-page{
+        h1{
+            padding-top: 22rem;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .blog-lead-page{
+        h1{
+            padding-top: 26rem !important;
+        }
+    }
+}
+
+////////////////////////////////about page//////////////////////////////////////
+
+
+.about-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/about-home.png);
+}
+
+.about-lead-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+
+
+////////////////////////////////////eror404/////////////////////////////////////
+

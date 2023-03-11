@@ -1,0 +1,78 @@
+
+
+.section-nutrition{
+    div.container3{
+        div.owl-carousel{
+            background-color: $cream;
+            padding-top: 5rem;
+            padding-bottom: 1rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            border: 1px solid $red;
+            border-radius: 20px;
+            div{
+                text-align: center;
+                img{
+                    width: 25rem;
+                    height: 330px;
+                    margin: 0 auto;
+                    margin-bottom: 2rem;
+                    border: 1px solid $red;
+                }
+                p{
+                    font-family: $lato;
+                }
+            }
+        }
+    }
+}
+
+.blog-heading{
+    @extend #h4;
+    text-transform: none;
+    max-width: 90rem;
+    background-color: $cream;
+    padding: 3rem;
+    border: 1px solid $red;
+    border-radius: 2rem;
+    img{
+        margin-bottom: 2rem;
+    }
+    a{
+        padding: 10px;
+        background-color: $red;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: $black;
+        }
+    }
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background-color: $red !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: black;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    font-size: 3rem;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+

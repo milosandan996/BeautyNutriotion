@@ -1,0 +1,290 @@
+
+
+.section-services{
+    margin-bottom: 11.1rem;
+    div{
+        h4{
+            @extend #h4;
+        }
+        div.row{
+            div{
+                padding-bottom: 9.5rem;
+                padding-top: 14.3rem;
+                h3{
+                    @extend #h3;
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                    padding-bottom: 4.9rem;
+                    font-family: $lato;
+                }
+                a{
+                    margin-left: 1.5rem;
+                    text-decoration: none;
+                    font-family: $lato;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    letter-spacing: 0.5px;
+                    color: #1E1E1E;
+                    border: 1px solid #1E1E1E;
+                    padding-bottom: 1.5rem;
+                    padding-top: 1.5rem;
+                    padding-left: 3.6rem;
+                    padding-right: 3.6rem;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+.left{
+    background-color: $red;
+    a{
+        &:hover{
+            background-color: $cream;
+        }
+    }
+}
+
+.right{
+    background-color: $cream;
+    a{
+        &:hover{
+            background-color: $red;
+        }
+    }
+}
+
+
+@media(min-width: 576px){
+
+    .section-services{
+        div{
+            div.row{
+                div{
+                    padding-bottom: 14rem;
+                    padding-top: 14rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media(min-width: 768px){
+
+    .section-services{
+        div{
+            div.row{
+                div{
+                    h3{
+                        padding-top: 2rem;
+                    }
+                    padding-bottom: 0rem;
+                    padding-top: 0rem;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media(min-width: 992px){
+
+    .section-services{
+        div{
+            h4{
+                margin-bottom: 5.8rem;
+            }
+            div.row{
+                div{
+
+                    h3{
+                        padding-left: 5rem;
+                        padding-right: 9.5rem;
+                        padding-top: 10rem;
+                    }
+                    a{
+                        margin-left: 5rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media(min-width: 1200px){
+
+    .section-services{
+        div{
+            h4{
+                margin-bottom: 5.8rem;
+            }
+            div.row{
+                div{
+
+                    h3{
+                        padding-left: 9.5rem;
+                        padding-right: 9.5rem;
+                        padding-top: 11rem;
+                    }
+                    a{
+                        margin-left: 9.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////SERVICES PAGE////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+.services-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/naslovna8.jpg);
+}
+
+.services-page{
+    @extend #home-page;
+    h1{
+        padding-top: 30rem;
+    }
+}
+
+@media(min-width:1200px){
+    .services-page{
+        h1{
+            padding-top: 26rem !important;
+        }
+    }
+
+}
+
+
+.section-education{
+    padding: 0;
+    text-align: center;
+    h2{
+        @extend #h2;
+        margin-bottom: 3rem;
+    }
+    div.education-heading{
+        margin-bottom: 7rem;
+        p{
+            max-width: 400px;
+            text-align: left;
+            font-family: $lato;
+            font-size: 1.9rem;
+        }
+        div{
+            img{
+                max-width: 300px;
+            }
+        }
+    }
+    .education-main{
+        background-color: $cream;
+        padding: 3rem;
+        border-radius: 20px;
+        max-width: 360px;
+        margin-bottom: 4rem;
+        h4{
+            @extend #h4;
+            font-size: 2rem;
+            text-align: center;
+        }
+        p{
+            font-family: $lato;
+            font-size: 1.9rem;
+            margin: 0;
+            a{
+                padding: 10px;
+                background-color: $red;
+                border-radius: 20px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media(min-width: 380px){
+
+    .education-main{
+        background-color: $cream;
+        padding: 3rem;
+        border-radius: 20px;
+        max-width: 380px;
+        h4{
+            
+        }
+        p{
+            font-family: $lato;
+        }
+    }
+
+}
+
+@media(min-width: 576px){
+
+    .education-main{
+        background-color: $cream;
+        padding: 3rem;
+        border-radius: 20px;
+        max-width: 500px !important;
+        h4{
+            font-size: 3rem !important;
+        }
+        p{
+            font-family: $lato;
+        }
+    }
+
+}
+
+@media(min-width: 768px){
+
+    .section-education{
+        h2{
+            margin-bottom: 7rem;
+        }
+        div{
+            p{
+                margin-top: 3rem;
+                margin-left: 3rem;
+            }
+            div{
+                img{
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    
+    .education-main{
+        background-color: $cream;
+        padding: 3rem;
+        border-radius: 20px;
+        max-width: 700px !important;
+        h4{
+            font-size: 3rem !important;
+        }
+        p{
+            font-family: $lato;
+        }
+    }
+
+}
+

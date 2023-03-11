@@ -1,0 +1,28 @@
+
+
+.gallery-lead-page{
+    background-image: url(../images/naslovna3.jpg);
+}
+
+.section-results{
+    h4{
+        @extend #h4;
+    }
+    div.row{
+        margin-bottom: 7rem;
+        div{
+            a{
+                img{
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

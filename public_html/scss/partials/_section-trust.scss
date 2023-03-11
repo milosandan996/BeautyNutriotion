@@ -1,0 +1,23 @@
+
+section.h44{
+    margin-bottom: 7rem;
+    h4{
+        @extend #h4;
+        margin-bottom: 5.6rem;
+    }
+    div.row{
+        background-color: $cream;
+        padding: 4rem;
+        border: 1px solid $red;
+        p{
+            font-family: $lato;
+        }
+    }
+  
+}
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 10px;
+    // 1 rem
+}
+
+#home-page-div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#home-page{
+    margin-bottom: 7.5rem;
+    background-color: rgba(0,0,0,0.3);
+    h1{
+        font-size: 4.5rem;
+        padding-top: 17rem;
+        color: white;
+        font-family: $bodoni;
+        line-height: 8.4rem;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+#h4{
+    font-family: $bodoni;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    color: $black;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 4.9rem;
+}
+
+#h3{
+    letter-spacing: normal;
+    line-height: 4.4rem;
+    color: #1E1E1E;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#h2{
+    font-family: $bodoni;
+    text-transform: uppercase;
+    line-height: 5.5rem;
+    text-align: left;
+    letter-spacing: normal;
+    color: $black;
+}
+
+
+
+
+.container3 {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container3 {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container3 {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container3 {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container3 {
+        max-width: 800px;
+    }
+}
